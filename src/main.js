@@ -1,7 +1,9 @@
+import './assets/main.css'
+
 import { createApp } from 'vue';
 import App from './App.vue';
-import 'flowbite'; // Import Flowbite JS
-import 'flowbite/dist/flowbite.min.css'; // Import Flowbite CSS
+import 'flowbite';
+import 'flowbite/dist/flowbite.min.css';
 
 const app = createApp(App);
 app.mount('#app');
