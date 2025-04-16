@@ -1,12 +1,16 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import { FwbAlert } from 'flowbite-vue';
 </script>
 
 <template>
    <h1 class="text-3xl font-bold underline">
     Tailwind 4 ya ges!
   </h1>
+  <fwb-alert type="success">
+    Success! You can now use Flowbite Vue in your Vue application 🎉
+  </fwb-alert>
 </template>
 
 <style scoped>
